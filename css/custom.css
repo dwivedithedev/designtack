@@ -1,0 +1,43 @@
+.bottom-bar {
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #09757a;
+  color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+
+a {
+  color: turquoise;
+}
+
+a:hover {
+	color: turquoise;
+	text-decoration: underline;
+}
+
+.bottom-bar__content {
+  /*max-width: 500px;*/
+  margin: 0 auto;
+  padding:10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-bar__text {
+  font-weight: bold;
+  padding: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.bottom-bar__close {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 2em;
+}
