@@ -633,7 +633,8 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #fff;
+    background: linear-gradient(35deg, #FFCCCC, skyblue);
+    opacity: 0.95;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 600 0.875rem/0.875rem "Raleway", sans-serif;
 	transition: all 0.2s;
@@ -657,8 +658,9 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-	color: #393939;
+	color: white;
 	text-decoration: none;
+    font-weight: bold;
 	transition: all 0.2s ease;
 }
 
@@ -671,6 +673,8 @@ input[type='checkbox'] {
 .navbar-custom .dropdown:hover > .dropdown-menu {
 	display: block; /* this makes the dropdown menu stay open while hovering it */
 	min-width: auto;
+    background: linear-gradient(35deg, #FFCCCC, skyblue);
+    opacity: 0.95;
 	animation: fadeDropdown 0.2s; /* required for the fade animation */
 }
 
@@ -692,16 +696,16 @@ input[type='checkbox'] {
 	margin-top: 0;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #fff;
 }
 
 .navbar-custom .dropdown-item {
-	color: #393939;
+	color: white;
 	text-decoration: none;
 }
 
 .navbar-custom .dropdown-item:hover {
-	background-color: #fff;
+    background: linear-gradient(35deg, #FFCCCC, skyblue);
+    opacity: 0.95;
 }
 
 .navbar-custom .dropdown-item .item-text {
@@ -728,7 +732,7 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-toggler {
 	border: none;
-	color: #393939;
+	color: white;
 	font-size: 2rem;
 }
 
@@ -1125,9 +1129,11 @@ input[type='checkbox'] {
 /*     11. Request     */
 /***********************/
 .form-1 {
-	padding-top: 6.875rem;
-	padding-bottom: 6.25rem;
+	padding-top: 2.875rem;
+	padding-bottom: 2.25rem;
 	background-color: #f9fafc;
+    background: linear-gradient(10deg, white, skyblue);
+    opacity: 0.95;
 }
 
 .form-1 h2 {
@@ -1359,13 +1365,16 @@ input[type='checkbox'] {
 
 .basic-4 .image-wrapper img {
 	margin: 0;
-	transition: all 0.3s;
+	transition: all 0.5s;
 }
 
 .basic-4 .image-wrapper:hover img {
 	-moz-transform: scale(1.15);
 	-webkit-transform: scale(1.15);
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
 	transform: scale(1.15);
+    transform: rotate(360deg);
 } 
 /* end of hover animation */
 
@@ -1764,19 +1773,20 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom.top-nav-collapse {
-        padding: 0.5rem 1.5rem 0.5rem 2rem;
+        padding: 0.6rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #fff;
+		background: linear-gradient(35deg, #FFCCCC, skyblue);
+        opacity: 0.95;
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #393939;
 		opacity: 1;
 	}
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #4893FB;
+        color: #4893FB;
+        font-weight: bold; 
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1937,12 +1947,15 @@ a:hover.back-to-top {
 
 	/* Request */
 	.form-1 {
-		padding-top: 7.5rem;
+		padding-top: 2.5rem;
+        background: linear-gradient(10deg, white, skyblue);
+        opacity: 0.95;
 	}
 
 	.form-1 .text-container {
 		margin-top: 1.5rem;
 		margin-bottom: 0;
+        font-weight: bolder
 	}
 	/* end of request */
 
@@ -2102,11 +2115,13 @@ a:hover.back-to-top {
 	.form-1 .text-container {
 		margin-right: 1.5rem;
 		margin-left: 6rem;
+        
 	}
 
 	.form-1 form {
 		margin-right: 6rem;
 		margin-left: 1.5rem;
+        
 	}
 	/* end of request */
 
