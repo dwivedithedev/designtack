@@ -49,6 +49,11 @@
 			<loc>https://www.designtack.com/Difference</loc>
 			<changefreq>weekly</changefreq>
 		</url>
+		
+		<url>
+			<loc>https://www.designtack.com/Template</loc>
+			<changefreq>weekly</changefreq>
+		</url>
 
 	</urlset>
 
