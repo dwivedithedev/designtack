@@ -11,7 +11,7 @@
 		</url>
 
 		<url>
-			<loc>https://www.designtack.com/UseCases</loc>
+			<loc>https://www.designtack.com/#usecases</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 
@@ -47,11 +47,6 @@
 
 		<url>
 			<loc>https://www.designtack.com/Difference</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-		
-		<url>
-			<loc>https://www.designtack.com/templates</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 
